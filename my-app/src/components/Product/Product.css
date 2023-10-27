@@ -1,0 +1,45 @@
+.Product .img {
+  height: 150px;
+  background-color: rgb(255, 249, 242);
+  overflow: hidden;
+}
+.Product .title {
+    font-size: 20px;
+    margin: 0.5rem auto;
+    width: 80%;
+  text-transform: capitalize;
+}
+.Product .price {
+  background-color: rgb(17, 14, 14);
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.Product .discountpercentage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: greenyellow;
+  color: black;
+}
+.Product img {
+  width: 100%;
+}
+.Product {
+  border: 1px solid black;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+.Product:hover {
+  transform: scale(1.01);
+}
+.Product .desc {
+    padding: 0.5rem;
+}
+.Product .desc, .Product .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
